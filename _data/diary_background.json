@@ -1,4 +1,5 @@
 {
   "enabled": true,
-  "image": "/assets/background/6b152a323f244b58c16bec7c250031418a4f86e7a7cf875de1ad73e0e152cbe2.jpg"
+  "image": "/assets/background/6b152a323f244b58c16bec7c250031418a4f86e7a7cf875de1ad73e0e152cbe2.jpg",
+  "overlay_opacity": 0.75
 }

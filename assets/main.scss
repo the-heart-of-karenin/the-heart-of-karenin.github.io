@@ -9,10 +9,16 @@ html { min-height: 100%; }
 body {
   min-height: 100vh;
   background-image: url("{{ site.data.diary_background.image | relative_url }}");
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.page-content > .wrapper {
+  background-color: rgba(255, 255, 255, {{ site.data.diary_background.overlay_opacity | default: 0.75 }});
+  border-radius: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 {% endif %}
 /* diary-publisher background:end */
