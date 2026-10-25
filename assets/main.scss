@@ -1,0 +1,18 @@
+---
+---
+
+@import "minima";
+
+/* diary-publisher background:start */
+{% if site.data.diary_background.enabled %}
+html { min-height: 100%; }
+body {
+  min-height: 100vh;
+  background-image: url("{{ site.data.diary_background.image | relative_url }}");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+{% endif %}
+/* diary-publisher background:end */
